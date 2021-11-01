@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "nombre": "Spray",
+        "descripción": "Spray realizado con aceites esenciales, alcohol de cereal y agua mineral. Envase color ámbar de 250 ml.",
+        "consejos": "Usalo donde quieras, es apto para usar en tela, ambientes y en tu propia piel."
+    },
+
+    {
+        "id": 2,
+        "nombre": "Vela de Soja",
+        "descripción": "Vela realizada con cera de soja y aceites esenciales de primera calidad en frasco de 200 ml con tapa blanca. Es apta para masajes, usando el aceite que se forma al derretirse a los 40°C.",
+        "consejos": "Usar en lapsos de 4 horas. No soplar, apagar a través de falta de oxígeno usando su tapa o un apaga velas."
+    },
+
+    {
+        "id": 3,
+        "nombre": "Bombones de Soja",
+        "descripción": "Bombones realizados con aceites esenciales y cera de soja, con formas inspiradas en la naturaleza. Se puede usar para perfumar cajones, un ambiente o para hornitos tanto a vela como eléctricos.",
+        "consejos": "El aceite que se forma al derretirse, al igual que el de la vela de soja, se puede usar para masajes."
+    },
+
+    {
+        "id": 4,
+        "nombre": "Tag de Soja",
+        "descripción": "Tag con formita realizado con aceites esenciales y cera de soja. Viene con un hilo o cinta para colgar y dentro de una bolsa de organza.",
+        "consejos": "La cera de soja se derrite a 40°C, así que si lo vas a usar en un lugar donde esté muy expuesto al sol, avísame así lo preparo con solidificador."
+    },
+
+    {
+        "id": 5,
+        "nombre": "Jabón Natural",
+        "descripción": "Jabón natural realizado con aceites, aceites esenciales y productos orgánicos. Presentación de 70 gr en caja de cartón con papel para preservarlo.",
+        "consejos": "Asegurate de drenar bien los jabones después de usarlos, ya que el agua los ablanda."
+    },
+
+    {
+        "id": 6,
+        "nombre": "Bomba de baño",
+        "descripción": "Bombas de baño Sophie's Heart, traídas directamente de Mar del Plata para vos. Realizadas con aceite de coco, bioglitter y muchos colores.",
+        "consejos": "Si vas a precisar cantidad, pedime con anterioridad ya que es difícil conseguir stock."
+    },
+    
+    {
+        "id": 7,
+        "nombre": "Shower Steamer",
+        "descripción": "Shower Steamer de Sophie's Heart, traídas directamente de Mar del Plata para vos. Realizados con aceite de coco y aceites esenciales.",
+        "consejos": "Para vos que no tenes bañera, no te preocupes, tenemos opciones para ducha."
+    },
+
+    {
+        "id": 8,
+        "nombre": "Bath Dust",
+        "descripción": "Polvo para baño de Sophie's Heart, traídas directamente de Mar del Plata para vos. En bolsa hermética, usá la cantidad que vos quieras.",
+        "consejos": "El único que viene con efecto metalizado."
+    }
+]

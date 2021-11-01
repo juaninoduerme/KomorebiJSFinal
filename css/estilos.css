@@ -1,0 +1,249 @@
+@charset "UTF-8";
+/* ----------------------------------------------------------------------------------------------------- */
+/* CSS PROPIO */
+/* ----------------------------------------------------------------------------------------------------- */
+/* GOOGLE FONT */
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+/* RESETEO */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------- */
+/* SECCIONES */
+body {
+  background-color: #f9f2e7;
+  font-family: 'Fjalla One', sans-serif !important; }
+
+html {
+  width: 100%;
+  height: 100vh; }
+
+section {
+  margin: 5% 0; }
+
+svg {
+  margin: 0 5%; }
+
+div {
+  margin: 1% 0; }
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* ENCABEZADOS */
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 3rem;
+  padding: 0.5rem;
+  margin: 8% 0; }
+
+h2 {
+  text-align: left;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  font-weight: 50; }
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* PARRAFOS */
+p {
+  font-size: 1.5rem;
+  text-align: justify;
+  margin: 1% auto; }
+
+.pTienda {
+    font-size: 1.1rem;
+    text-align: left;
+    margin: 1% 1%; }
+
+.pClaro {
+  color: #f9f2e7;
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 7%; }
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* LINKS */
+a {
+  text-decoration: none;
+  color: #01baef; }
+
+.aRedes {
+  margin: 0 5%; }
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* LOGO */
+.logoContenedor {
+  height: 100%;
+  width: 70%;
+  margin: auto; }
+
+.logo {
+  height: 100%;
+  width: 100%; }
+
+/* ANIMACION */
+.aparecer {
+  animation: text-focus-in 0.75s cubic-bezier(0.55, 0.085, 0.68, 0.53); }
+
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0; }
+  100% {
+    filter: blur(0px);
+    opacity: 1; } }
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* IMAGENES */
+.imagen {
+  margin: 7% auto; }
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* MENÚ */
+nav {
+  width: 100%; }
+  nav ul {
+    width: 100%; }
+    nav ul li {
+      display: flex;
+      justify-content: space-around;
+      width: 100%; }
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* INICIO */
+/* ----------------------------------------------------------------------------------------------------- */
+/* NOSOTRES */
+.adelantarse {
+  animation: fade-in-fwd 3s cubic-bezier(0.39, 0.575, 0.565, 1) 1s both; }
+
+@keyframes fade-in-fwd {
+  0% {
+    transform: translateZ(-80px);
+    opacity: 0; }
+  100% {
+    transform: translateZ(0);
+    opacity: 1; } }
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* NOVEDADES */
+.borde {
+  margin: auto;
+  border: 2px solid #01baef; }
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* PRODUCTOS */
+.imagenProducto {
+  display: grid;
+  justify-content: center;
+  align-items: center; }
+
+.escalar:hover {
+  transform: scale(1.05, 1.05); }
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* TIENDA */
+
+.lineaCarrito {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: left;
+  align-items: left; }
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* CONTACTO */
+.centrar {
+  margin: auto; }
+
+/* FORM CONTACTO */
+fieldset {
+  border: solid 2px #01baef;
+  width: 100%;
+  margin: 5% auto;
+  padding: 1% 1%; }
+
+legend {
+  font-size: 1.5rem; }
+
+label {
+  text-align: center;
+  padding-right: 0.5rem; }
+
+/* BOTON */
+.boton, .botonContacto, .botonTienda {
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  font-size: 1.2rem; }
+
+.botonContacto {
+  background-color: transparent;
+  color: #01baef;
+  border: 1px solid #01baef; }
+
+.botonTienda {
+  background-color: transparent;
+  color: #f9f2e7;
+  border: 1px solid #f9f2e7; }
+
+.botonContacto:hover {
+  background-color: #01baef;
+  color: #f9f2e7;
+  border: 1px solid colorCeleste; }
+
+.botonTienda:hover {
+  background-color: #f9f2e7;
+  color: #01baef;
+  border: 1px solid colorCrema; }
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* FOOTER */
+.footerContenedor {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+  width: 20%;
+  margin: 0; }
+  .footerContenedor .footerContenido {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%; }
+
+footer {
+  display: flex;
+  position: sticky;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: flex-end;
+  text-align: end;
+  margin-top: 10px;
+  bottom: 0;
+  background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+  width: 100%;
+  height: 150px; }
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* MEDIA QUERY'S */
+.pc {
+  color: black; }
+
+.celular {
+  color: black; }
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* MEDIA QUERY'S */
+@media (max-width: 540px) {
+  .pc {
+    display: none; }
+  p {
+    font-size: 1.1rem;
+    margin: 10% auto; }
+  .boton, .botonContacto, .botonTienda {
+    font-size: 1.1rem; } }
+
+@media (min-width: 541px) {
+  .celular {
+    display: none; } }
